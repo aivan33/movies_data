@@ -10,13 +10,17 @@ Python tool to clean and analyze key columns in [The Movies Dataset](https://www
 python -m venv venv
 source venv/bin/activate  
 ```
-3. Using Poetry
+3. unzip data.zip. Alternatively, download the full dataset from [Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+
+
+4. Poetry
 `cd path_to_project_dir`
 `poetry install`
+
+if RunTimeError, regenerate the poetry lock
+`rm poetry.lock`
+`poetry lock`
 
 ## Running Tests
 To ensure the functionality of the tool, a suite of tests has been provided. Run the tests using pytest:
 `pytest`
-
-4. Unzip the data.zip file inside the data folder. Alternatively, download the full dataset from [Kaggle](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
-
