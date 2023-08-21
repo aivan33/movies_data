@@ -7,8 +7,6 @@ def main():
     # Initalize MoviesData class
     movies = MoviesData("./data/movies_metadata.csv")
 
-    print(" Answers without any data transformation: \n")
-
     # Task Execution
     movies.clean_data()
     logging.info(f"Number of movies: {movies.get_total_movies()}")
