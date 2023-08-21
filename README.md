@@ -14,12 +14,12 @@ source venv/bin/activate
 
 
 4. Poetry
-`cd path_to_project_dir`
 `poetry install`
 
 if RunTimeError, regenerate the poetry lock
 `rm poetry.lock`
 `poetry lock`
+`poetry install`
 
 ## Running Tests
 To ensure the functionality of the tool, a suite of tests has been provided. Run the tests using pytest:
