@@ -14,7 +14,7 @@ source venv/bin/activate
 
 
 4. Poetry
-`poetry install`
+```poetry install```
 
 if RunTimeError, regenerate the poetry lock
 ```
