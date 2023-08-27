@@ -28,4 +28,8 @@ venv/
 
 notes.md
 
+# Ignore data
 .csv
+
+# Ignore Poetry's lock file
+poetry.lock
