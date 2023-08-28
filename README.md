@@ -1,7 +1,7 @@
 # Movies Data Processor 🎬
 
 ## Overview 📖
-This Python tool is designed to clean and analyze key columns in [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset). It's a robust solution for anyone looking to gain insights into the world of movies.
+This Python tool is designed to clean and analyze key columns in [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset).
 
 ## Prerequisites 🛠
 Python 3.10
